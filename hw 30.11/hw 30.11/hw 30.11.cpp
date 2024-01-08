@@ -3,9 +3,9 @@
 class comp_mouse {
 public:
 
-    char* color;
-    char* maker;
-    char* model;
+    string color;
+    string maker;
+    string model;
     bool RGB;
     bool additional_buttons;
 
@@ -35,8 +35,8 @@ public:
 class machete {
 public:
 
-    char* handle_color;
-    char* blade_color;
+    string handle_color;
+    string blade_color;
     bool machete_teeth;
     bool is_sharpened;
     bool is_clean;
@@ -61,7 +61,7 @@ public:
 class mousepad {
 public:
 
-    char* color;
+    string color;
     bool pattern;
     bool is_whole;
     bool is_wet;
